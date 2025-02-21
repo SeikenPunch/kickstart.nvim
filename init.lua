@@ -102,6 +102,7 @@ vim.g.have_nerd_font = false
 vim.opt.relativenumber = true
 vim.opt.shiftwidth = 3
 vim.opt.tabstop = 3
+vim.opt.softtabstop = 3
 
 -- Make line numbers default
 vim.opt.number = true
@@ -127,6 +128,7 @@ end)
 vim.opt.breakindent = true
 vim.opt.autoindent = true
 vim.opt.smartindent = true
+vim.opt.expandtab = true
 
 -- Save undo history
 vim.opt.undofile = true
